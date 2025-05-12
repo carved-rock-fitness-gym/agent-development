@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../demos/m2c2-log-analysis-agent/logs"
+		}
+	],
+    "settings": {}
+}
