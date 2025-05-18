@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/adam/Library/CloudStorage/GoogleDrive-adbertram@gmail.com/My Drive/Adam the Automator/CourseWork/courses/integrating-ai-agents-enterprise-systems/_shared/agent-development/log-analyzer/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from openai.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
